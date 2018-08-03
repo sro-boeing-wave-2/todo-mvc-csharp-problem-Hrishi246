@@ -1,0 +1,14 @@
+c:\users\admin\source\repos\Googlekeep\bin\Debug\netcoreapp2.1\Googlekeep.deps.json
+c:\users\admin\source\repos\Googlekeep\bin\Debug\netcoreapp2.1\Googlekeep.runtimeconfig.json
+c:\users\admin\source\repos\Googlekeep\bin\Debug\netcoreapp2.1\Googlekeep.runtimeconfig.dev.json
+c:\users\admin\source\repos\Googlekeep\bin\Debug\netcoreapp2.1\Googlekeep.dll
+c:\users\admin\source\repos\Googlekeep\obj\Debug\netcoreapp2.1\Googlekeep.csprojAssemblyReference.cache
+c:\users\admin\source\repos\Googlekeep\obj\Debug\netcoreapp2.1\Googlekeep.csproj.CoreCompileInputs.cache
+c:\users\admin\source\repos\Googlekeep\obj\Debug\netcoreapp2.1\Googlekeep.RazorAssemblyInfo.cache
+c:\users\admin\source\repos\Googlekeep\obj\Debug\netcoreapp2.1\Googlekeep.RazorAssemblyInfo.cs
+c:\users\admin\source\repos\Googlekeep\obj\Debug\netcoreapp2.1\Googlekeep.AssemblyInfoInputs.cache
+c:\users\admin\source\repos\Googlekeep\obj\Debug\netcoreapp2.1\Googlekeep.AssemblyInfo.cs
+c:\users\admin\source\repos\Googlekeep\obj\Debug\netcoreapp2.1\Googlekeep.RazorTargetAssemblyInfo.cache
+c:\users\admin\source\repos\Googlekeep\bin\Debug\netcoreapp2.1\Googlekeep.pdb
+c:\users\admin\source\repos\Googlekeep\obj\Debug\netcoreapp2.1\Googlekeep.dll
+c:\users\admin\source\repos\Googlekeep\obj\Debug\netcoreapp2.1\Googlekeep.pdb
