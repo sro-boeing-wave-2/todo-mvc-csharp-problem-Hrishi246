@@ -38,7 +38,7 @@ namespace Googlekeep.Controllers
             }
 
              //var note = await _context.Note.FindAsync(id);
-            var note = _context.Note.Include(y => y.ListofLabels).Include(z => z.ListofChecks).Where(x => x.NoteID == id);
+            var note =  _context.Note.Include(y => y.ListofLabels).Include(z => z.ListofChecks).Where(x => x.NoteID == id);
             if (note == null)
             {
                 return NotFound();
@@ -47,9 +47,9 @@ namespace Googlekeep.Controllers
             return Ok(note);
         }
 
-        // PUT: api/Notes/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutNote([FromRoute] int id, [FromBody] Note note)
+        // PUT: api/ToDoes/5
+        [HttpPut("edit/{id}")]
+        public async Task<IActionResult> PutToDo([FromRoute] int id, [FromBody] Note note)
         {
             if (!ModelState.IsValid)
             {
@@ -60,8 +60,9 @@ namespace Googlekeep.Controllers
             {
                 return BadRequest();
             }
-
-            _context.Entry(note).State = EntityState.Modified;
+            //await _context.Note.Include(x => x.ListofLabels).Include(x => x.ListofChecks).SingleOrDefaultAsync(n => n.NoteID == id);
+            _context.Note.Update(note);
+            //_context.Entry(note).State = EntityState.Modified;
 
             try
             {
@@ -79,8 +80,12 @@ namespace Googlekeep.Controllers
                 }
             }
 
-            return NoContent();
+            //return CreatedAtAction("GetNote", new { id = note.NoteID}, note);
+            return Ok(note);
         }
+
+
+
 
         // POST: api/Notes
         [HttpPost]
@@ -106,13 +111,16 @@ namespace Googlekeep.Controllers
                 return BadRequest(ModelState);
             }
 
-            var note = await _context.Note.Include(y => y.ListofLabels).Include(z => z.ListofChecks).SingleOrDefaultAsync(x => x.NoteID == id); 
+            var note = await _context.Note.Include(y => y.ListofLabels).Include(z => z.ListofChecks).SingleOrDefaultAsync(x => x.NoteID == id);
             if (note == null)
             {
                 return NotFound();
             }
 
-            _context.Note.Remove(note);
+            
+                _context.Note.Remove(note);
+          
+            
             await _context.SaveChangesAsync();
 
             return Ok(note);
@@ -125,20 +133,35 @@ namespace Googlekeep.Controllers
             {
                 return BadRequest(ModelState);
             }
-
-            var note = await _context.Note.Include(y => y.ListofLabels).Include(z => z.ListofChecks).FirstOrDefaultAsync ( x=> x.title == title);
+            
+            var note =  _context.Note.Include(y => y.ListofLabels).Include(z => z.ListofChecks).Where( x=> x.title == title);
             if (note == null)
             {
                 return NotFound();
             }
 
-            _context.Note.Remove(note);
+            foreach (var item in note)
+            {
+                _context.Note.Remove(item);
+
+            }
+
             await _context.SaveChangesAsync();
 
             return Ok(note);
         }
 
+        [HttpGet("Pinnedstatus/{Pinnedstatus}")]
+        public IActionResult Getpinned(bool Pinnedstatus)
+        {
+            var PinnedNotes =  _context.Note.Include(y => y.ListofLabels).Include(z => z.ListofChecks).Where(_notes => _notes.Ispinnned == Pinnedstatus);
+            if (PinnedNotes == null)
+            {
+                return NotFound();
+            }
 
+            return Ok(PinnedNotes);
+        }
 
 
 

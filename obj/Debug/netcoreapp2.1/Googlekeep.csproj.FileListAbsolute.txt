@@ -12,3 +12,17 @@ c:\users\admin\source\repos\Googlekeep\obj\Debug\netcoreapp2.1\Googlekeep.RazorT
 c:\users\admin\source\repos\Googlekeep\bin\Debug\netcoreapp2.1\Googlekeep.pdb
 c:\users\admin\source\repos\Googlekeep\obj\Debug\netcoreapp2.1\Googlekeep.dll
 c:\users\admin\source\repos\Googlekeep\obj\Debug\netcoreapp2.1\Googlekeep.pdb
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\bin\Debug\netcoreapp2.1\Googlekeep.deps.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\bin\Debug\netcoreapp2.1\Googlekeep.runtimeconfig.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\bin\Debug\netcoreapp2.1\Googlekeep.runtimeconfig.dev.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\bin\Debug\netcoreapp2.1\Googlekeep.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\bin\Debug\netcoreapp2.1\Googlekeep.pdb
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\obj\Debug\netcoreapp2.1\Googlekeep.csprojAssemblyReference.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\obj\Debug\netcoreapp2.1\Googlekeep.csproj.CoreCompileInputs.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\obj\Debug\netcoreapp2.1\Googlekeep.RazorAssemblyInfo.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\obj\Debug\netcoreapp2.1\Googlekeep.RazorAssemblyInfo.cs
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\obj\Debug\netcoreapp2.1\Googlekeep.AssemblyInfoInputs.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\obj\Debug\netcoreapp2.1\Googlekeep.AssemblyInfo.cs
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\obj\Debug\netcoreapp2.1\Googlekeep.RazorTargetAssemblyInfo.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\obj\Debug\netcoreapp2.1\Googlekeep.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\obj\Debug\netcoreapp2.1\Googlekeep.pdb
