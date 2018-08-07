@@ -36,7 +36,7 @@ namespace Googlekeep
             if (_hosting.IsEnvironment("Testing"))
             {
                 services.AddDbContext<GooglekeepContext>(options =>
-               options.UseInMemoryDatabase("InMemoryDataBaseString")); 
+               options.UseInMemoryDatabase("GooglekeepContext")); 
             }
             else
             {
