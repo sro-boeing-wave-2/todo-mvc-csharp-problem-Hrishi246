@@ -14,6 +14,6 @@ namespace Googlekeep.Models
         {
         }
 
-        public DbSet<Googlekeep.Model.Note> Note { get; set; }
+        public DbSet<Note> Note { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GenFu;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -17,4 +18,4 @@ namespace Googlekeep.Model
         public List<checklist> ListofChecks { get; set; }
         public List<label> ListofLabels { get; set; }
     }
-}
+}   

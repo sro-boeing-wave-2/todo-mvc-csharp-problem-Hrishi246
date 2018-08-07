@@ -18,20 +18,31 @@ namespace Googlekeep
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IHostingEnvironment hostingEnvironment)
         {
             Configuration = configuration;
+            _hosting = hostingEnvironment;
         }
 
         public IConfiguration Configuration { get; }
+        public IHostingEnvironment _hosting { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            services.AddDbContext<GooglekeepContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("GooglekeepContext")));
+           
+            if (_hosting.IsEnvironment("Testing"))
+            {
+                services.AddDbContext<GooglekeepContext>(options =>
+               options.UseInMemoryDatabase("InMemoryDataBaseString")); 
+            }
+            else
+            {
+                services.AddDbContext<GooglekeepContext>(options => 
+                options.UseSqlServer(Configuration.GetConnectionString("GooglekeepContext")));
+            }
 
             services.AddSwaggerGen(c =>
             {

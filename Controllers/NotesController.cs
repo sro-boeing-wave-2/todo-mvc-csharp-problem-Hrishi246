@@ -15,30 +15,53 @@ namespace Googlekeep.Controllers
     public class NotesController : ControllerBase
     {
         private readonly GooglekeepContext _context;
+       
 
         public NotesController(GooglekeepContext context)
         {
             _context = context;
         }
 
+
+
         // GET: api/Notes
         [HttpGet]
-        public IEnumerable<Note> GetNote()
+        public  IEnumerable<Note> GetNote()
         {
-            return _context.Note.Include(x => x.ListofLabels).Include(x => x.ListofChecks);
+            return  _context.Note.Include(x => x.ListofLabels).Include(x => x.ListofChecks);
+            
         }
 
         // GET: api/Notes/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetNote([FromRoute] int id)
+        public  async Task<IActionResult> GetNoteByID([FromRoute] int id)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-             //var note = await _context.Note.FindAsync(id);
-            var note =  _context.Note.Include(y => y.ListofLabels).Include(z => z.ListofChecks).Where(x => x.NoteID == id);
+            //var note = await _context.Note.FindAsync(id);
+            var note = await _context.Note.Include(y => y.ListofLabels).Include(z => z.ListofChecks).SingleOrDefaultAsync(x => x.NoteID == id);
+            if (note == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(note);
+        }
+
+
+        [HttpGet("{title}")]
+        public async Task<IActionResult> GetNoteByTitle(string title)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            //var note = await _context.Note.FindAsync(id);
+            var note = await _context.Note.Include(y => y.ListofLabels).Include(z => z.ListofChecks).SingleOrDefaultAsync(x => x.title == title);
             if (note == null)
             {
                 return NotFound();
@@ -152,15 +175,15 @@ namespace Googlekeep.Controllers
         }
 
         [HttpGet("Pinnedstatus/{Pinnedstatus}")]
-        public IActionResult Getpinned(bool Pinnedstatus)
+        public List<Note> Getpinned(bool Pinnedstatus)
         {
-            var PinnedNotes =  _context.Note.Include(y => y.ListofLabels).Include(z => z.ListofChecks).Where(_notes => _notes.Ispinnned == Pinnedstatus);
-            if (PinnedNotes == null)
-            {
-                return NotFound();
-            }
+            var PinnedNotes =  _context.Note.Include(y => y.ListofLabels).Include(z => z.ListofChecks).Where(_notes => _notes.Ispinnned == Pinnedstatus).ToList();
+            //if (PinnedNotes == null)
+            //{
+            //    return NotFound();
+            //}
 
-            return Ok(PinnedNotes);
+            return PinnedNotes;
         }
 
 
