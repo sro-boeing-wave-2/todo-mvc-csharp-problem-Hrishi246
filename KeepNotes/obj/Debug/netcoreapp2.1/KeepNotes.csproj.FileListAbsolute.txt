@@ -1,0 +1,56 @@
+E:\workspace\ASP.net\KeepNotes\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.deps.json
+E:\workspace\ASP.net\KeepNotes\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.runtimeconfig.json
+E:\workspace\ASP.net\KeepNotes\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.runtimeconfig.dev.json
+E:\workspace\ASP.net\KeepNotes\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.dll
+E:\workspace\ASP.net\KeepNotes\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.csproj.CoreCompileInputs.cache
+E:\workspace\ASP.net\KeepNotes\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.RazorAssemblyInfo.cache
+E:\workspace\ASP.net\KeepNotes\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.RazorAssemblyInfo.cs
+E:\workspace\ASP.net\KeepNotes\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.AssemblyInfoInputs.cache
+E:\workspace\ASP.net\KeepNotes\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.AssemblyInfo.cs
+E:\workspace\ASP.net\KeepNotes\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.RazorTargetAssemblyInfo.cache
+E:\workspace\ASP.net\KeepNotes\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.pdb
+E:\workspace\ASP.net\KeepNotes\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.dll
+E:\workspace\ASP.net\KeepNotes\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.pdb
+E:\workspace\ASP.net\KeepNotes\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.csprojAssemblyReference.cache
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.deps.json
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.runtimeconfig.json
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.runtimeconfig.dev.json
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.dll
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.pdb
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.csprojAssemblyReference.cache
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.csproj.CoreCompileInputs.cache
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.RazorAssemblyInfo.cache
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.RazorAssemblyInfo.cs
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.AssemblyInfoInputs.cache
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.AssemblyInfo.cs
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.RazorTargetAssemblyInfo.cache
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.dll
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.pdb
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.deps.json
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.runtimeconfig.json
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.runtimeconfig.dev.json
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.dll
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.pdb
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.csprojAssemblyReference.cache
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.csproj.CoreCompileInputs.cache
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.RazorAssemblyInfo.cache
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.RazorAssemblyInfo.cs
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.AssemblyInfoInputs.cache
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.AssemblyInfo.cs
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.RazorTargetAssemblyInfo.cache
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.dll
+H:\todo-mvc-csharp-problem-Preetham-D\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.pdb
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.deps.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.runtimeconfig.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.runtimeconfig.dev.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\bin\Debug\netcoreapp2.1\KeepNotes.pdb
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.csprojAssemblyReference.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.csproj.CoreCompileInputs.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.RazorAssemblyInfo.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.RazorAssemblyInfo.cs
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.AssemblyInfoInputs.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.AssemblyInfo.cs
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.RazorTargetAssemblyInfo.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netcoreapp2.1\KeepNotes.pdb

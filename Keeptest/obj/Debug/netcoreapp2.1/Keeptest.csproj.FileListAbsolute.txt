@@ -1,0 +1,68 @@
+E:\workspace\ASP.net\KeepNotes\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\workspace\ASP.net\KeepNotes\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+E:\workspace\ASP.net\KeepNotes\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+E:\workspace\ASP.net\KeepNotes\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.deps.json
+E:\workspace\ASP.net\KeepNotes\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.runtimeconfig.json
+E:\workspace\ASP.net\KeepNotes\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.runtimeconfig.dev.json
+E:\workspace\ASP.net\KeepNotes\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.dll
+E:\workspace\ASP.net\KeepNotes\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.pdb
+E:\workspace\ASP.net\KeepNotes\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.csprojAssemblyReference.cache
+E:\workspace\ASP.net\KeepNotes\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.csproj.CoreCompileInputs.cache
+E:\workspace\ASP.net\KeepNotes\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.AssemblyInfoInputs.cache
+E:\workspace\ASP.net\KeepNotes\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.AssemblyInfo.cs
+E:\workspace\ASP.net\KeepNotes\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.dll
+E:\workspace\ASP.net\KeepNotes\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.pdb
+E:\workspace\ASP.net\KeepNotes\Keeptest\bin\Debug\netcoreapp2.1\KeepNotes.dll
+E:\workspace\ASP.net\KeepNotes\Keeptest\bin\Debug\netcoreapp2.1\KeepNotes.pdb
+E:\workspace\ASP.net\KeepNotes\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.csproj.CopyComplete
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.deps.json
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.runtimeconfig.json
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.runtimeconfig.dev.json
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.dll
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.pdb
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\KeepNotes.dll
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\KeepNotes.pdb
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.csprojAssemblyReference.cache
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.csproj.CoreCompileInputs.cache
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.AssemblyInfoInputs.cache
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.AssemblyInfo.cs
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.csproj.CopyComplete
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.dll
+E:\workspace\ASP.net\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.pdb
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.csprojAssemblyReference.cache
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.csproj.CoreCompileInputs.cache
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.AssemblyInfoInputs.cache
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.AssemblyInfo.cs
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.dll
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.pdb
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.deps.json
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.runtimeconfig.json
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.runtimeconfig.dev.json
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.dll
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.pdb
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\KeepNotes.dll
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\bin\Debug\netcoreapp2.1\KeepNotes.pdb
+H:\todo-mvc-csharp-problem-Preetham-D\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.csproj.CopyComplete
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.deps.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.runtimeconfig.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.runtimeconfig.dev.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\Keeptest.pdb
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\KeepNotes.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\KeepNotes.pdb
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.csprojAssemblyReference.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.csproj.CoreCompileInputs.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.AssemblyInfoInputs.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.AssemblyInfo.cs
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.csproj.CopyComplete
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\Keeptest.pdb
