@@ -1,0 +1,17 @@
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\GoogleKeepNotesTest.deps.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\GoogleKeepNotesTest.runtimeconfig.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\GoogleKeepNotesTest.runtimeconfig.dev.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\GoogleKeepNotesTest.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\GoogleKeepNotesTest.pdb
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\GoogleKeepNotes.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\bin\Debug\netcoreapp2.1\GoogleKeepNotes.pdb
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\GoogleKeepNotesTest.csprojAssemblyReference.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\GoogleKeepNotesTest.csproj.CoreCompileInputs.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\GoogleKeepNotesTest.AssemblyInfoInputs.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\GoogleKeepNotesTest.AssemblyInfo.cs
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\GoogleKeepNotesTest.csproj.CopyComplete
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\GoogleKeepNotesTest.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\Keeptest\obj\Debug\netcoreapp2.1\GoogleKeepNotesTest.pdb

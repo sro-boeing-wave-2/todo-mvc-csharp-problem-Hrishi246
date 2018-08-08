@@ -60,8 +60,8 @@ namespace Keeptest
             var notes =
                 new Notes()
                 {
-                    Title = "My First Note",
-                    Text = "This is my plaintext",
+                    Title = "putting the note",
+                    Text = "putting the plain text",
                     PinStat = true,
                     checklist = new List<CheckList>()
                     {
@@ -98,10 +98,11 @@ namespace Keeptest
         [Fact]
         public async Task TestGetById()
         {
-            var Response = await _client.GetAsync("/api/notes/112");
+            var Response1 = await _client.GetAsync("/api/notes/112");
+            var Response2 = await _client.GetAsync("/api/notes/");
             //Console.WriteLine(await Response.Content.ReadAsStringAsync());
             //var ResponseBody = await Response.Content.ReadAsStringAsync();
-            Assert.Equal("NotFound", Response.StatusCode.ToString());
+            Assert.Equal("NotFound", Response1.StatusCode.ToString());
         }
         [Fact]
         public async Task GetNoteByTitle()

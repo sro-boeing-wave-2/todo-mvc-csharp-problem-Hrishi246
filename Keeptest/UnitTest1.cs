@@ -50,7 +50,7 @@ namespace Keeptest
         public void TestGet()
         {
             var result = _controller.GetNotes().ToList();
-            Console.Write("{0}" + '\n' + result[0].ID);
+           
             //var objectresult = result as OkObjectResult;
             //var notes = objectresult.Value as List<Notes>;
             Assert.Equal(2, result.Count);

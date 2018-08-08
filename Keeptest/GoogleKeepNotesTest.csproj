@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KeepNotes\KeepNotes.csproj" />
+    <ProjectReference Include="..\KeepNotes\GoogleKeepNotes.csproj" />
   </ItemGroup>
 
 </Project>

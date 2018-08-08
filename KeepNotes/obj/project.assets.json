@@ -14669,9 +14669,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP-NET assignment\\todo-mvc-csharp-problem-Hrishi246\\KeepNotes\\KeepNotes.csproj",
-      "projectName": "KeepNotes",
-      "projectPath": "D:\\ASP-NET assignment\\todo-mvc-csharp-problem-Hrishi246\\KeepNotes\\KeepNotes.csproj",
+      "projectUniqueName": "D:\\ASP-NET assignment\\todo-mvc-csharp-problem-Hrishi246\\KeepNotes\\GoogleKeepNotes.csproj",
+      "projectName": "GoogleKeepNotes",
+      "projectPath": "D:\\ASP-NET assignment\\todo-mvc-csharp-problem-Hrishi246\\KeepNotes\\GoogleKeepNotes.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "D:\\ASP-NET assignment\\todo-mvc-csharp-problem-Hrishi246\\KeepNotes\\obj\\",
       "projectStyle": "PackageReference",
