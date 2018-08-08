@@ -11,44 +11,86 @@ using KeepNotes.Controllers;
 
 namespace Keeptest
 {
-    public class KeepContext
+    public class UnitTest
     {
-        NotesController _controller;
-        public KeepContext()
+        public NotesController GetController()
         {
-            //var optionBuilder = new DbContextOptionsBuilder<KeepNotesContext>();
-            //optionBuilder.UseInMemoryDatabase("TestDB");
             var optionsBuilder = new DbContextOptionsBuilder<KeepNotesContext>();
-            optionsBuilder.UseInMemoryDatabase(Guid.NewGuid().ToString());
+            optionsBuilder.UseInMemoryDatabase<KeepNotesContext>(Guid.NewGuid().ToString());
             var todocontext = new KeepNotesContext(optionsBuilder.Options);
-            _controller = new NotesController(todocontext);
-            createtestdata(todocontext);
+            CreateTestData(optionsBuilder.Options);
+            return new NotesController(todocontext);
         }
 
-        public void createtestdata(KeepNotesContext todocontext)
+        public void CreateTestData(DbContextOptions<KeepNotesContext> options)
         {
-            List<Notes> note1 = new List<Notes>()
+            using (var todocontext = new KeepNotesContext(options))
             {
-                new Notes
-                { Title = "First",
-                    Text = "First sentence",
-                    PinStat = true,
-                    checklist = new List<CheckList>() { new CheckList { list = "hello" }, new CheckList { list = "brother" } },
-                     label = new List<Label>() { new Label { label = "number1" }, new Label { label = "number2" } } },
-                new Notes
+                var NotesToAdd = new List<Notes>
                 {
-                    Title = "Second",
-                    Text = "Second sentence",
-                    PinStat = true,
-                    checklist = new List<CheckList>() { new CheckList { list = "hello2" }, new CheckList { list = "brother2" } },
-                    label = new List<Label>() { new Label { label = "number3" }, new Label { label = "number4" } }
-                } };
-            todocontext.AddRange(note1);
-            todocontext.SaveChanges();
+                    new Notes()
+                    {
+                       ID=1,
+                        Text = "This is my plaintext",
+                        PinStat = true,
+                        Title = "My First Note",
+                        label = new List<Label>
+                        {
+                            new Label {
+                                label ="Label Data 1"
+                            },
+                            new Label {
+                                label ="Label Data 2"
+                            }
+                        },
+                        checklist =new List<CheckList>
+                        {
+                            new CheckList {
+                                list ="CheckList Data 1",
+                              
+                            },
+                            new CheckList {
+                                list ="CheckList Data 2",
+                                
+                            }
+                        }
+                    },
+                    new Notes()
+                    {
+                       ID=2,
+                        Text = "PlainText 2",
+                        PinStat = false,
+                        Title = "Title 2",
+                        label = new List<Label>
+                        {
+                            new Label {
+                                label ="Label Data 3"
+                            },
+                            new Label {
+                                label ="Label Data 4"
+                            }
+                        },
+                        checklist =new List<CheckList>
+                        {
+                            new CheckList {
+                                list ="CheckList Data 3",
+                             
+                            },
+                            new CheckList {
+                                list ="CheckList Data 4",
+                                
+                            }
+                        }
+                    },
+                };
+                todocontext.Notes.AddRange(NotesToAdd);
+                todocontext.SaveChanges();
+            }
         }
         [Fact]
         public void TestGet()
         {
+            var _controller = GetController();
             var result = _controller.GetNotes().ToList();
            
             //var objectresult = result as OkObjectResult;
@@ -59,8 +101,9 @@ namespace Keeptest
         [Fact]
         public async void TestGetId()
         {
+            var _controller = GetController();
             var tofindID = _controller.GetNotes().ToList();
-            var result = await _controller.GetNotes(tofindID[0].ID);
+            var result = await _controller.GetNotesById(tofindID[0].ID);
             //Assert.True(condition: result is OkObjectResult);
             var OkObjectResult = result as OkObjectResult;
             //Assert.True(condition: result, OkObjectResult);
@@ -71,13 +114,14 @@ namespace Keeptest
         [Fact]
         public async void GetNoteTestByTitle()
         {
-           // var result1 = _controller.GetNotes().ToList();
-            var result = await _controller.GetNoteByTitle("First");
+            var _controller = GetController();
+            // var result1 = _controller.GetNotes().ToList();
+            var result = await _controller.GetNoteByTitle("My First Note");
             ////Assert.True(condition: result is OkObjectResult);
             var OkObjectResult = result as OkObjectResult;
             ////Assert.True(condition: result, OkObjectResult);
             var notes = OkObjectResult.Value as Notes;
-            Assert.Equal("First", notes.Title);
+            Assert.Equal("My First Note", notes.Title);
 
         }
 
@@ -85,6 +129,7 @@ namespace Keeptest
         [Fact]
         public void TestIsPinned()
         {
+            var _controller = GetController();
             List<Notes> trueNotes = new List<Notes>();
             var result1 = _controller.Getpinned(true);
             var result2 = _controller.GetNotes().ToList();
@@ -109,7 +154,8 @@ namespace Keeptest
         [Fact]
         public  void TestGetLabel()
         {
-            var result =  _controller.GetNotesLabel("number1");
+            var _controller = GetController();
+            var result =  _controller.GetNotesLabel("Label Data 1");
             var resultAsOkObjectResult = result as OkObjectResult;
             //Assert.True(condition: result, OkObjectResult);
             var notes = resultAsOkObjectResult.Value as List<Notes>;
@@ -119,8 +165,10 @@ namespace Keeptest
         [Fact]
         public async void TestPost()
         {
+            var _controller = GetController();
             Notes note = new Notes
             {
+                ID = 3,
                 Title = "Post",
                 Text = "Post sentence",
                 PinStat = true,
@@ -131,30 +179,54 @@ namespace Keeptest
             var resultAsOkObjectResult = result as CreatedAtActionResult;
             //Assert.True(condition: result, OkObjectResult);
             var notes = resultAsOkObjectResult.Value as Notes;
-            Assert.Equal(notes, note);
+            Assert.Equal(notes.Title, note.Title);
         }
 
         [Fact]
-        public void PutTest()
+        public async void TestPutById()
         {
-            var updatedNote = new Notes()
+            var note = new Notes()
             {
-                Title = "First",
-                Text = "changed first sentence",
+                                    
+                        ID = 2,
+                        Text = "This is my plaintext",
+                        PinStat = true,
+                        Title = "Updated Note",
+                        label = new List<Label>
+                        {
+                            new Label {
+                                label ="Label Data 1"
+                            },
+                            new Label {
+                                label ="Label Data 2"
+                            }
+                        },
+                        checklist =new List<CheckList>
+                        {
+                            new CheckList {
+                                list ="CheckList Data 1",
+
+                            },
+                            new CheckList {
+                                list ="CheckList Data 2",
+
+                            }
+                        }
+
             };
-            var result1 = _controller.GetNotes().ToList();
-
-            var result2 = _controller.PutToDo(result1[1].ID, updatedNote);
-            // Assert.True(result);
-            Assert.NotEqual(updatedNote.Text, result1[1].Text);
-
-
+            var _controller = GetController();
+            var result = await _controller.PutToDo(2, note);
+            var objectresult = result as OkObjectResult;
+            var notes = objectresult.Value as Notes;
+            Assert.Equal(2, notes.ID);
         }
+
 
 
         [Fact]
         public async void TestDel()
         {
+            var _controller = GetController();
             var tofindID = _controller.GetNotes().ToList();
             var result = await _controller.DeleteNotes(tofindID[0].ID);
             //Console.WriteLine(note.Id);

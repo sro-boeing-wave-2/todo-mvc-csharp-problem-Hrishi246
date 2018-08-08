@@ -32,7 +32,7 @@ namespace KeepNotes.Controllers
 
         // GET: api/Notes/5 
         [HttpGet("ID/{id}")]
-        public async Task<IActionResult> GetNotes([FromRoute] int id)
+        public async Task<IActionResult> GetNotesById([FromRoute] int id)
         {
             if (!ModelState.IsValid)
             {
@@ -117,7 +117,7 @@ namespace KeepNotes.Controllers
             {
                 await _context.SaveChangesAsync();
             }
-            catch (DbUpdateConcurrencyException)
+            catch (DbUpdateConcurrencyException e)
             {
                 if (!NotesExists(id))
                 {

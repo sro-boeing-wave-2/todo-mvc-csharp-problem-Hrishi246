@@ -113,7 +113,7 @@ namespace Keeptest
             Response.EnsureSuccessStatusCode();
         }
         [Fact]
-        public async Task PutToDo()
+        public async Task PutToDoooo()
         {
             var notes =
                new Notes()
@@ -140,8 +140,8 @@ namespace Keeptest
             var json = JsonConvert.SerializeObject(notes);
             var stringContent = new StringContent(json, UnicodeEncoding.UTF8, "application/json");
             var Response = await _client.PutAsync("/api/notes/edit/1", stringContent);
-            var responseString = await Response.Content.ReadAsStringAsync();
-            var responsedata = JsonConvert.DeserializeObject<Notes>(responseString);
+            //var responseString = await Response.Content.ReadAsStringAsync();
+            //var responsedata = JsonConvert.DeserializeObject<Notes>(responseString);
             Response.EnsureSuccessStatusCode();
 
         }
