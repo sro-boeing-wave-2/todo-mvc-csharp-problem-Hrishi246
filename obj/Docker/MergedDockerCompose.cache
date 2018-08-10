@@ -1,0 +1,19 @@
+services:
+  googlekeepnotes:
+    build:
+      context: D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246
+      dockerfile: KeepNotes/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44349'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: googlekeepnotes
+    ports:
+    - published: 51418
+      target: 80
+    - published: 44349
+      target: 443
+    volumes:
+    - /c/Users/Admin/AppData/Roaming/ASP.NET/Https:/root/.aspnet/https:ro
+    - /c/Users/Admin/AppData/Roaming/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

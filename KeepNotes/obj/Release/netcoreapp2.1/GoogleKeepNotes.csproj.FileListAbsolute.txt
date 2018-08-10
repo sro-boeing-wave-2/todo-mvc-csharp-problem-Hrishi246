@@ -1,0 +1,15 @@
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\bin\Release\netcoreapp2.1\GoogleKeepNotes.deps.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\bin\Release\netcoreapp2.1\GoogleKeepNotes.runtimeconfig.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\bin\Release\netcoreapp2.1\GoogleKeepNotes.runtimeconfig.dev.json
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\bin\Release\netcoreapp2.1\GoogleKeepNotes.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\bin\Release\netcoreapp2.1\GoogleKeepNotes.pdb
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Release\netcoreapp2.1\GoogleKeepNotes.csprojAssemblyReference.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Release\netcoreapp2.1\GoogleKeepNotes.csproj.CoreCompileInputs.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Release\netcoreapp2.1\GoogleKeepNotes.RazorAssemblyInfo.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Release\netcoreapp2.1\GoogleKeepNotes.RazorAssemblyInfo.cs
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Release\netcoreapp2.1\GoogleKeepNotes.AssemblyInfoInputs.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Release\netcoreapp2.1\GoogleKeepNotes.AssemblyInfo.cs
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Release\netcoreapp2.1\GoogleKeepNotes.RazorTargetAssemblyInfo.cache
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Release\netcoreapp2.1\GoogleKeepNotes.dll
+D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Release\netcoreapp2.1\GoogleKeepNotes.pdb
