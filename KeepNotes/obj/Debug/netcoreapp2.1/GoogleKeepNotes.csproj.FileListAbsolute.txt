@@ -12,4 +12,3 @@ D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netc
 D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netcoreapp2.1\GoogleKeepNotes.dll
 D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netcoreapp2.1\GoogleKeepNotes.pdb
 D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
-D:\ASP-NET assignment\todo-mvc-csharp-problem-Hrishi246\KeepNotes\obj\Debug\netcoreapp2.1\GoogleKeepNotes.csprojAssemblyReference.cache

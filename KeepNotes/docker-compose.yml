@@ -1,0 +1,15 @@
+version : '3'
+
+services:
+
+GoogleKeepNotes : 
+   image : 
+   ports :
+       - 8080:80
+       environment : 
+           GoogleKeepNotes_DB_Passwords : abc123
+
+mysql :
+    image : mssql-server-linux
+    environment : 
+        mssql_Root_Password : abc123z 
